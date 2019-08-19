@@ -6,7 +6,7 @@ const Schedule = () => {
   return (
     <Container fluid className="p-0 m-0 mb-3" id="schedule">
       <Jumbotron className="bg-primary m-0 rounded-0 text-light">
-        <h1 className="display-4 text-center">Schedule</h1>
+        <h1 className="display-4 text-center">Schedule (tentative)</h1>
       </Jumbotron>
       <Row>
         <Col></Col>

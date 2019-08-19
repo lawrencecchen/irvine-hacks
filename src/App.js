@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 import Navigation from './components/Navigation'
 import FullScrollContent from './components/FullScrollContent';
 import './App.scss';
+import $ from 'jquery';
 
 class App extends React.Component {
   render() {

@@ -5,15 +5,17 @@ import Sponsors from './Sponsors';
 import FAQ from './FAQ';
 import Footer from './Footer';
 import Schedule from './Schedule';
+import Contact from './Contact';
 import './FullScrollContent.scss';
 
-const FullScrollContent = ({ match }) => {
+const FullScrollContent = () => {
   return (
     <Container fluid className="m-0 p-0 bg-primary">
       <About />
-      {/* <Sponsors /> */}
       <FAQ />
       <Schedule />
+      <Sponsors />
+      <Contact />
       <Footer />
     </Container>
   );
