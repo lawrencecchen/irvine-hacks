@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch, Redirect } from 'react-router-dom'
+import { Container } from 'react-bootstrap';
+import Navigation from './components/Navigation'
+import FullScrollContent from './components/FullScrollContent';
+import './App.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <Container fluid className="m-0 p-0">
+        <Navigation />
+        <Container className="p-0 m-0" id="outside" fluid>
+          <FullScrollContent />
+          {/* <Switch className="p-0 m-0">
+            <Route path="/" exact component={FullScrollContent} />
+            <Redirect to="/" />
+          </Switch> */}
+        </Container>
+        {/* <Footer /> */}
+      </Container>
+    );
+  }
 }
 
 export default App;
