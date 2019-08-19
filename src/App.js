@@ -9,7 +9,7 @@ import $ from 'jquery';
 class App extends React.Component {
   render() {
     return (
-      <Container fluid className="m-0 p-0">
+      <Container fluid className="m-0 p-0" style={{ overflowX: 'hidden' }}>
         <Navigation />
         <Container className="p-0 m-0" id="outside" fluid>
           <FullScrollContent />
