@@ -21,10 +21,12 @@ const Navigation = () => {
             <Nav.Link href="#prospectus">Prospectus</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
             <Nav.Link>
-              <Button className="my-0 mr-1 btn-lg" variant="btn">Apply Now</Button>
+              <Button className="my-0 mr-1 btn-lg" variant="btn" id="eventbrite-widget-modal-trigger-69687181235">Register Now</Button>
             </Nav.Link>
             <Nav.Link>
-              <Button href="http://www.google.com" className="m-0 btn-lg btn-outline-btn">Sponsor Us</Button>
+              <a href={'https://www.google.com'}>
+                <Button className="m-0 btn-lg btn-outline-btn">Sponsor Us</Button>
+              </a>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
