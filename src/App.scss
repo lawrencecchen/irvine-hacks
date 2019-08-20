@@ -6,11 +6,11 @@
   font-family: "Noto Serif JP", serif;
 }
 
-.fullScrollContent {
+#fullScrollContent {
   padding-top: 80px;
 }
 @media (max-width: 991px) {
-  .fullScrollContent {
-    padding-top: 56px;
+  #fullScrollContent {
+    padding-top: 56px !important;
   }
 }

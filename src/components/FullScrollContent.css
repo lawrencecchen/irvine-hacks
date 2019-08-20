@@ -1,8 +1,0 @@
-body {
-  padding-top: 80px;
-}
-@media (max-width: 991px) {
-  body {
-    padding-top: 56px;
-  }
-}

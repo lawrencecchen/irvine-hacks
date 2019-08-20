@@ -1,0 +1,15 @@
+@import "../custom.scss";
+
+@include media-breakpoint-down(xs) {
+  .display-1 {
+    font-size: 3.3em;
+  }
+
+  .display-4 {
+    font-size: 2.4em;
+  }
+
+  #subtitle {
+    font-size: 1em;
+  }
+}

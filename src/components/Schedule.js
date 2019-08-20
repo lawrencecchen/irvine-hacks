@@ -3,7 +3,7 @@ import { Container, Jumbotron, Row, Col, ListGroup } from 'react-bootstrap';
 import './TextArticles.scss';
 
 const Schedule = React.forwardRef((props, ref) => (
-  <Container fluid className="p-0 mx-0 pt-3" id="schedule" ref={ref}>
+  <Container fluid className="p-0 mx-0 pt-3" ref={ref}>
     <Jumbotron className="bg-primary m-0 rounded-0 text-light">
       <h1 className="display-4 text-center">Schedule (tentative)</h1>
     </Jumbotron>

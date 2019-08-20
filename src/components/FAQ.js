@@ -3,7 +3,7 @@ import { Container, Jumbotron, Card, Row, Col, Accordion } from 'react-bootstrap
 import './TextArticles.scss';
 
 const FAQ = React.forwardRef((props, ref) => (
-  <Container fluid className="p-0 mx-0 mb-3 bg-primary" id="faq" ref={ref}>
+  <Container fluid className="p-0 mx-0 mb-3 bg-primary pt-3" ref={ref}>
     <Jumbotron className="m-0 rounded-0 text-light bg-primary">
       <h1 className="display-4 text-center">FAQ</h1>
     </Jumbotron>

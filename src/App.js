@@ -2,7 +2,6 @@ import React from 'react';
 // import { Route, Switch, Redirect } from 'react-router-dom'
 import { Container } from 'react-bootstrap';
 import Navigation from './components/Navigation'
-import FullScrollContent from './components/FullScrollContent';
 import About from './components/About';
 import Sponsors from './components/Sponsors';
 import FAQ from './components/FAQ';
