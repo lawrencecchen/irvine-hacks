@@ -1,15 +1,12 @@
 import React from 'react';
 import { Container, Jumbotron } from 'react-bootstrap';
 import './TextArticles.scss';
-
-const Sponsors = () => {
-  return (
-    <Container fluid className="p-0 m-0" id="sponsors">
-      <Jumbotron className="bg-primary m-0 rounded-0 text-light text-center">
-        <h1 className="display-4">Sponsors</h1>
-      </Jumbotron>
-    </Container>
-  );
-}
+const Sponsors = React.forwardRef((props, ref) => (
+  <Container fluid className="p-0 m-0" id="sponsors" ref={ref}>
+    <Jumbotron className="bg-primary m-0 rounded-0 text-light text-center">
+      <h1 className="display-4">Sponsors</h1>
+    </Jumbotron>
+  </Container>
+));
 
 export default Sponsors;
