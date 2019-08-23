@@ -21,7 +21,8 @@ class App extends React.Component {
     this.defaultAnimationSettings = {
       align: 'top',
       ease: 'inOutCube',
-      duration: 790
+      duration: 790,
+      offset: -70
     };
     this.sections = {
       About: React.createRef(),
