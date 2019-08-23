@@ -10,7 +10,6 @@ import Schedule from './components/Schedule';
 import Contact from './components/Contact';
 import scrollToComponent from 'react-scroll-to-component';
 import './App.scss';
-// import $ from 'jquery';
 
 class App extends React.Component {
   constructor(props) {

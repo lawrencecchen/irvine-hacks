@@ -1,5 +1,12 @@
+@import "../custom.scss";
+
 .nav-link {
-  font-family: "Noto Serif JP", serif;
+  font-family: $font-family-nav;
   display: flex !important;
   align-items: center;
+}
+
+#logo {
+  width: 75px;
+  height: 75px;
 }

@@ -1,26 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
-// import { ReactComponent as Logo } from '../media/embrace-the-curve.svg';
-import scrollToComponent from 'react-scroll-to-component';
+import { ReactComponent as Logo } from '../media/logo.svg';
 import './Navigation.scss';
 
 class Navigation extends React.Component {
-  constructor(props) {
-    super(props);
-    // this.handleClick = this.handleClick.bind(this);
-  }
-
   handleClick(section) {
     this.props.handleSectionChange(section);
   }
 
   render() {
-    console.log(this.props.sections)
     return (
       <Container fluid className="mt-0 p-0" >
-        <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark" fixed="top">
+        <Navbar collapseOnSelect expand="lg" bg="secondary" variant="dark" fixed="top">
           <Navbar.Brand>
+            <Logo id="logo" />
             Irvine Hacks
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -36,9 +29,9 @@ class Navigation extends React.Component {
                 <Button className="my-0 mr-1 btn-lg" variant="btn" id="eventbrite-widget-modal-trigger-69687181235">Register Now</Button>
               </Nav.Link>
               <Nav.Link>
-                <a href={'https://www.google.com'} target="_blank">
-                  <Button className="m-0 btn-lg btn-outline-btn">Sponsor Us</Button>
-                </a>
+                {/* <a href=""> */}
+                <Button className="m-0 btn-lg btn-outline-light bg-secondary text-light" disabled>Sponsor Us</Button>
+                {/* </a> */}
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

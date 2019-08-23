@@ -1,6 +1,7 @@
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
 @import url("https://fonts.googleapis.com/css?family=Amiri|Noto+Serif+JP:300|Saira+Semi+Condensed&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300&display=swap");
 
 // https://colorhunt.co/palette/155139
 $theme-colors: (
@@ -9,5 +10,6 @@ $theme-colors: (
   invert: #c6d6bc,
   btn: #ff6464 // secondary: #01024e,
 );
+$font-family-nav: "Noto Serif JP", serif;
 
 @import "~bootstrap/scss/bootstrap";
