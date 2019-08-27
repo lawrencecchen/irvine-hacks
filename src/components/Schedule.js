@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Jumbotron, Row, Col, ListGroup } from 'react-bootstrap';
-import './TextArticles.scss';
+import './Section.scss';
 
 const TimeList = (props) => {
   return (

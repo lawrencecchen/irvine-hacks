@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Jumbotron, Row, Col } from 'react-bootstrap';
-import './About.scss';
+import { ReactComponent as Background } from '../media/undraw_web_development_w2vv.svg';
+import './Section.scss';
 
 const About = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
@@ -8,6 +9,7 @@ const About = React.forwardRef((props, ref) => (
       <Row>
         <Col></Col>
         <Col xs={10}>
+          {/* style={{ backgroundImage: `url(${Background})` }} */}
           <Jumbotron className="bg-primary m-0 rounded-0 text-light">
             <h1 className="display-1">Irvine Hacks</h1>
             <p className="text-light subtitle" style={{ fontSize: "1.4em" }}>
@@ -21,6 +23,7 @@ const About = React.forwardRef((props, ref) => (
             <p className="text-light subtitle" style={{ fontSize: "1.4em" }}>
               Venue TBD
             </p>
+            <Background style={{ opacity: '30%' }} />
           </Jumbotron>
         </Col>
         <Col></Col>

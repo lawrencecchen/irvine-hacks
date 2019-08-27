@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Jumbotron, Card, Row, Col, Accordion } from 'react-bootstrap';
-import './TextArticles.scss';
+import './Section.scss';
 
 const FAQ = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 mx-0 mb-3 bg-primary pt-3" ref={ref}>
