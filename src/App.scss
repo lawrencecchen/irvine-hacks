@@ -1,9 +1,7 @@
-// html {
-//   overflow-x: hidden;
-// }
+@import "./custom.scss";
 
 * {
-  font-family: "Noto Serif JP", serif;
+  font-family: $font-family-default;
   text-rendering: optimizeLegibility !important;
 }
 
@@ -11,7 +9,7 @@
   padding-top: 101px !important;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1009px) {
   #fullScrollContent {
     padding-top: 101px !important;
   }

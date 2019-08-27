@@ -13,8 +13,18 @@ class Navigation extends React.Component {
       <Navbar collapseOnSelect expand="lg" bg="secondary" variant="dark" fixed="top" className="py-0">
         <Navbar.Brand>
           <Logo id="logo" />
-          Irvine Hacks
-          </Navbar.Brand>
+          <Nav.Link
+            id="title"
+            href="#about"
+            onClick={() => this.handleClick(this.props.sections.About)}
+            className="text-light"
+            as="span"
+            role="button"
+            style={{ cursor: 'pointer' }}
+          >
+            Irvine Hacks
+          </Nav.Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">

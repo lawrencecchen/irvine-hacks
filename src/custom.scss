@@ -1,6 +1,8 @@
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
-@import url("https://fonts.googleapis.com/css?family=Amiri|Noto+Serif+JP:300|Saira+Semi+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Nunito:200&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Amiri|Noto+Serif+JP:300|Saira+Semi+Condensed&display=swap");
 // @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300&display=swap");
 
 // https://colorhunt.co/palette/155139
@@ -10,6 +12,7 @@ $theme-colors: (
   invert: #c6d6bc,
   btn: #ff6464 // secondary: #01024e,
 );
-$font-family-nav: "Noto Serif JP", serif;
+$font-family-nav: "Nunito", sans-serif;
+$font-family-default: "Montserrat", sans-serif;
 
 @import "~bootstrap/scss/bootstrap";

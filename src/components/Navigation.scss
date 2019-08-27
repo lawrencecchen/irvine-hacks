@@ -1,16 +1,16 @@
 @import "../custom.scss";
 
+#title {
+  font-size: 30px;
+}
+
 .nav-link {
   font-family: $font-family-nav;
   display: flex !important;
   align-items: center;
+  font-size: 18px;
 }
 
-#logo {
-  // width: 75px;
-  // height: 75px;
-  // position: fixed;
-  // left: 5px;
-  // top: 3px;
-  // z-index: 1500;
+.navbar-brand {
+  display: flex !important;
 }

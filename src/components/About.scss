@@ -1,5 +1,9 @@
 @import "../custom.scss";
 
+* {
+  letter-spacing: 3;
+}
+
 @include media-breakpoint-down(xs) {
   .display-1 {
     font-size: 3.3em;

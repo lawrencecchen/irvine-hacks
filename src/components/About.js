@@ -12,7 +12,7 @@ const About = React.forwardRef((props, ref) => (
             <h1 className="display-1">Irvine Hacks</h1>
             <p className="text-light subtitle" style={{ fontSize: "1.4em" }}>
               <strong>
-                a High School Hackathon hosted by Northwood High School students.
+                a 24-hour High School Hackathon, hosted by Irvine students.
               </strong>
             </p>
             <p className="text-light subtitle" style={{ fontSize: "1.4em" }}>
