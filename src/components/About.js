@@ -28,7 +28,7 @@ const About = React.forwardRef((props, ref) => (
         <Col></Col>
       </Row>
       <Row>
-        <Background className="mx-auto" />
+        <Background className="mx-auto" height='' />
       </Row>
     </Container>
     <Container className="text-light h4 text-justified px-4 my-5">

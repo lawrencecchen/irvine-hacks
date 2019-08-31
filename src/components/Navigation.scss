@@ -17,11 +17,13 @@
 }
 
 .navbar {
-  transition: background-color 0.25s ease-out;
+  transition: background-color 0.3s ease-out;
   background: $nav;
 }
 
-.navbar-darken {
+.navbar-darken,
+.navbar:focus,
+.navbar:hover {
   background: $nav-dark;
   // opacity: 0.9;
 }

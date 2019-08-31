@@ -52,10 +52,11 @@ $nav-dark: rgba(113, 35, 180, 0.94);
 
 $theme-colors: (
   primary: #543864,
-  secondary: rgba(195, 108, 171, 0.8),
+  secondary: rgba(195, 108, 171, 0.44),
   // secondary: #8b4367,
   invert: #c6d6bc,
-  btn: #ff6464
+  btn: #ff6464,
+  nav-dark: rgba(113, 35, 180, 0.44)
 );
 
 @import "~bootstrap/scss/bootstrap";
