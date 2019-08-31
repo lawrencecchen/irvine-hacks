@@ -79,7 +79,14 @@ class Navigation extends React.Component {
               {/* <Nav.Link href="#prospectus" onClick={() => this.handleClick(this.props.sections.FAQ)}>Prospectus</Nav.Link> */}
               <Nav.Link href="#contact" onClick={() => this.handleClick(this.props.sections.Contact)}>Contact</Nav.Link>
               <Nav.Link>
-                <Button className="my-0 mr-1 btn-lg" variant="btn" id="eventbrite-widget-modal-trigger-69687181235">Register Now</Button>
+                <Button
+                  className="my-0 mr-1 btn-lg"
+                  variant="btn"
+                  id="eventbrite-widget-modal-trigger-69687181235"
+                  onSelect={this.setIsNavExpanded}
+                >
+                  Register Now
+                </Button>
               </Nav.Link>
               <Nav.Link>
                 {/* <a href=""> */}
