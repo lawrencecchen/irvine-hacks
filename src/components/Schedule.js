@@ -40,9 +40,10 @@ const scheduleInfo = {
 }
 
 const Schedule = React.forwardRef((props, ref) => (
-  <Container fluid className="p-0 mx-0 pt-3" ref={ref}>
+  <Container fluid className="px-0 mx-0 my-4 py-4" ref={ref}>
     <Jumbotron className="bg-transparent m-0 rounded-0 text-light">
-      <h1 className="display-4 text-center">Schedule (tentative)</h1>
+      <h1 className="display-4 text-center">Schedule</h1>
+      <h2 className="text-center">(tentative)</h2>
     </Jumbotron>
     <Row>
       <Col></Col>

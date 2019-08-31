@@ -22,7 +22,7 @@ class App extends React.Component {
       align: 'top',
       ease: 'inOutCube',
       duration: 790,
-      offset: -70
+      offset: -48
     };
     this.sections = {
       About: React.createRef(),
