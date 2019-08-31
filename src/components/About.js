@@ -4,7 +4,7 @@ import { ReactComponent as Background } from '../media/undraw_web_development_w2
 import './Section.scss';
 
 const About = React.forwardRef((props, ref) => (
-  <Container fluid className="p-0 m-0 bg-transparent" ref={ref}>
+  <Container fluid className="p-0 m-0 bg-gradient" ref={ref}>
     <Container fluid>
       <Row>
         <Col></Col>

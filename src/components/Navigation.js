@@ -1,11 +1,28 @@
 import React from 'react';
-import { Navbar, Nav, Container, Button } from 'react-bootstrap';
+import { Navbar, Nav, Button } from 'react-bootstrap';
 import { ReactComponent as Logo } from '../media/logo.svg';
 import './Navigation.scss';
 
 class Navigation extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleScroll = this.handleScroll.bind(this);
+    this.state = {
+      yFromTop: 0,
+    }
+  }
+
   handleClick(section) {
     this.props.handleSectionChange(section);
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll() {
+    let yFromTop = window.pageYOffset;
+    this.setState({ yFromTop });
   }
 
   render() {
@@ -13,10 +30,9 @@ class Navigation extends React.Component {
       <Navbar
         collapseOnSelect
         expand="lg"
-        bg="secondary"
         variant="dark"
         fixed="top"
-        className="py-0"
+        className={`py-0 ${this.state.yFromTop <= 53 ? 'nav' : 'navbar-darken'}`}
       >
         <Navbar.Brand>
           <Logo id="logo" />

@@ -6,13 +6,7 @@
 // @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300&display=swap");
 
 // https://colorhunt.co/palette/155139
-$theme-colors: (
-  primary: #543864,
-  secondary: rgba(195, 108, 171, 0.44),
-  // secondary: #8b4367,
-  invert: #c6d6bc,
-  btn: #ff6464
-);
+
 $font-family-nav: "Nunito", sans-serif;
 $font-family-default: "Montserrat", sans-serif;
 $gradient-background: linear-gradient(
@@ -53,5 +47,15 @@ $gradient-background: linear-gradient(
     rgb(76, 23, 207) 82%,
     rgb(76, 23, 207) 100%
   );
+$nav: transparent;
+$nav-dark: rgba(113, 35, 180, 0.94);
+
+$theme-colors: (
+  primary: #543864,
+  secondary: rgba(195, 108, 171, 0.8),
+  // secondary: #8b4367,
+  invert: #c6d6bc,
+  btn: #ff6464
+);
 
 @import "~bootstrap/scss/bootstrap";

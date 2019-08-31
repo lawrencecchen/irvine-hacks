@@ -16,6 +16,26 @@
   display: flex !important;
 }
 
+.navbar {
+  transition: background-color 0.25s ease-out;
+  // background: rgba(76, 23, 207, 0.44);
+  background: $nav;
+}
+
+.navbar-darken {
+  background: $nav-dark;
+  // opacity: 0.9;
+}
+
+// @keyframes nav-darken {
+//   from {
+//     background: transparent;
+//   }
+//   to {
+//     background: rgba(76, 23, 207, 0.44);
+//   }
+// }
+
 @media (max-width: 1041px) {
   .navbar * {
     font-size: 15px;

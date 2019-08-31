@@ -4,8 +4,8 @@ import './Section.scss';
 
 const TimeList = (props) => {
   return (
-    props.timestamps.map(([time, event]) => (
-      <ListGroup.Item>
+    props.timestamps.map(([time, event], index) => (
+      <ListGroup.Item key={index}>
         <Row>
           <Col>{time}</Col>
           <Col>{event}</Col>
