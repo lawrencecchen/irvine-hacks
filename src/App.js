@@ -39,17 +39,17 @@ class App extends React.Component {
 
   render() {
     return (
-      <Container fluid className="m-0 p-0" style={{ overflowX: 'hidden' }}>
+      <Container fluid className="m-0 p-0 overflow-x-hidden">
         <Navigation handleSectionChange={this.handleSectionChange} sections={this.sections} />
-        <Container className="p-0 m-0" id="fullScrollContent" fluid>
-          <Container fluid className="m-0 p-0 bg-primary">
+        <Container className="p-0 m-0 wrapper" fluid>
+          <Container fluid className="m-0 px-0 bg-transparent content parallax navbar-margin-top">
             <About ref={this.sections.About} />
             <FAQ ref={this.sections.FAQ} />
             <Schedule ref={this.sections.Schedule} />
             <Sponsors ref={this.sections.Sponsors} />
             <Contact ref={this.sections.Contact} />
-            <Footer />
           </Container>
+          <Footer />
           {/* <Switch className="p-0 m-0">
             <Route path="/" exact component={FullScrollContent} />
             <Redirect to="/" />

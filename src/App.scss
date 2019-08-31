@@ -5,12 +5,20 @@
   text-rendering: optimizeLegibility !important;
 }
 
-#fullScrollContent {
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+body {
+  background: $gradient-background;
+}
+
+.navbar-margin-top {
   padding-top: 101px !important;
 }
 
 @media (max-width: 1009px) {
-  #fullScrollContent {
+  .navbar-margin-top {
     padding-top: 101px !important;
   }
 }

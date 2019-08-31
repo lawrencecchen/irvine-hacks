@@ -8,11 +8,50 @@
 // https://colorhunt.co/palette/155139
 $theme-colors: (
   primary: #543864,
-  secondary: #8b4367,
+  secondary: rgba(195, 108, 171, 0.44),
+  // secondary: #8b4367,
   invert: #c6d6bc,
-  btn: #ff6464 // secondary: #01024e,
+  btn: #ff6464
 );
 $font-family-nav: "Nunito", sans-serif;
 $font-family-default: "Montserrat", sans-serif;
+$gradient-background: linear-gradient(
+    0deg,
+    rgba(51, 74, 220, 0.44) 0%,
+    rgba(51, 74, 220, 0.44) 22%,
+    rgba(72, 79, 213, 0.44) 22%,
+    rgba(72, 79, 213, 0.44) 31%,
+    rgba(92, 84, 206, 0.44) 31%,
+    rgba(92, 84, 206, 0.44) 33%,
+    rgba(113, 89, 199, 0.44) 33%,
+    rgba(113, 89, 199, 0.44) 63%,
+    rgba(133, 93, 192, 0.44) 63%,
+    rgba(133, 93, 192, 0.44) 80%,
+    rgba(154, 98, 185, 0.44) 80%,
+    rgba(154, 98, 185, 0.44) 83%,
+    rgba(174, 103, 178, 0.44) 83%,
+    rgba(174, 103, 178, 0.44) 98%,
+    rgba(195, 108, 171, 0.44) 98%,
+    rgba(195, 108, 171, 0.44) 100%
+  ),
+  linear-gradient(
+    90deg,
+    rgb(204, 65, 111) 0%,
+    rgb(204, 65, 111) 2%,
+    rgb(186, 59, 125) 2%,
+    rgb(186, 59, 125) 14%,
+    rgb(167, 53, 138) 14%,
+    rgb(167, 53, 138) 15%,
+    rgb(149, 47, 152) 15%,
+    rgb(149, 47, 152) 42%,
+    rgb(131, 41, 166) 42%,
+    rgb(131, 41, 166) 77%,
+    rgb(113, 35, 180) 77%,
+    rgb(113, 35, 180) 81%,
+    rgb(94, 29, 193) 81%,
+    rgb(94, 29, 193) 82%,
+    rgb(76, 23, 207) 82%,
+    rgb(76, 23, 207) 100%
+  );
 
 @import "~bootstrap/scss/bootstrap";
