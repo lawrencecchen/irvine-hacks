@@ -9,8 +9,15 @@
   display: flex !important;
   align-items: center;
   font-size: 18px;
+  white-space: nowrap;
 }
 
 .navbar-brand {
   display: flex !important;
+}
+
+@media (max-width: 1041px) {
+  .navbar * {
+    font-size: 15px;
+  }
 }

@@ -10,7 +10,14 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <Navbar collapseOnSelect expand="lg" bg="secondary" variant="dark" fixed="top" className="py-0">
+      <Navbar
+        collapseOnSelect
+        expand="lg"
+        bg="secondary"
+        variant="dark"
+        fixed="top"
+        className="py-0"
+      >
         <Navbar.Brand>
           <Logo id="logo" />
           <Nav.Link

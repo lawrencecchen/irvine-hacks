@@ -22,3 +22,9 @@ body {
     padding-top: 101px !important;
   }
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}

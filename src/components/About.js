@@ -2,7 +2,6 @@ import React from 'react';
 import { Container, Jumbotron, Row, Col } from 'react-bootstrap';
 import { ReactComponent as Background } from '../media/undraw_web_development_w2vv.svg';
 import './Section.scss';
-import './Parallax.scss';
 
 const About = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0 bg-transparent" ref={ref}>
@@ -24,13 +23,15 @@ const About = React.forwardRef((props, ref) => (
             <p className="text-light subtitle" style={{ fontSize: "1.4em" }}>
               Venue TBD
             </p>
-            <Background style={{ opacity: '30%' }} />
           </Jumbotron>
         </Col>
         <Col></Col>
       </Row>
+      <Row>
+        <Background className="mx-auto" />
+      </Row>
     </Container>
-    <Container className="text-light h4 text-justified px-4">
+    <Container className="text-light h4 text-justified px-4 my-5">
       Irvine Hacks is a 24-hour hackathon hosted by students at Northwood High School. Throughout the entire event, students will have the chance to learn new skills, build transformative projects, and discover an entire community of designers, builders, and innovators; an entire community of hackers.
     </Container>
   </Container>

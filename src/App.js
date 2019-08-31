@@ -41,8 +41,8 @@ class App extends React.Component {
     return (
       <Container fluid className="m-0 p-0 overflow-x-hidden">
         <Navigation handleSectionChange={this.handleSectionChange} sections={this.sections} />
-        <Container className="p-0 m-0 wrapper" fluid>
-          <Container fluid className="m-0 px-0 bg-transparent content parallax navbar-margin-top">
+        <Container className="p-0 m-0 parallax" fluid>
+          <Container fluid className="m-0 px-0 bg-transparent navbar-margin-top">
             <About ref={this.sections.About} />
             <FAQ ref={this.sections.FAQ} />
             <Schedule ref={this.sections.Schedule} />
@@ -50,10 +50,6 @@ class App extends React.Component {
             <Contact ref={this.sections.Contact} />
           </Container>
           <Footer />
-          {/* <Switch className="p-0 m-0">
-            <Route path="/" exact component={FullScrollContent} />
-            <Redirect to="/" />
-          </Switch> */}
         </Container>
         {/* <Footer /> */}
       </Container >
