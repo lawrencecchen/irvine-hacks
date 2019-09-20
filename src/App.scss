@@ -1,4 +1,5 @@
 @import "./custom.scss";
+@import "./components/Responsive.scss";
 
 * {
   font-family: $font-family-default;
@@ -13,15 +14,11 @@ body {
   background: $gradient-background;
 }
 
-.navbar-margin-top {
-  padding-top: 101px !important;
-}
-
-@media (max-width: 1009px) {
-  .navbar-margin-top {
-    padding-top: 101px !important;
-  }
-}
+// @media (max-width: 1009px) {
+//   .navbar-margin-top {
+//     padding-top: 101px !important;
+//   }
+// }
 
 @media (max-width: 768px) {
   body {

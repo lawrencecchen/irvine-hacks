@@ -1,0 +1,25 @@
+@import "../custom.scss";
+
+#responsive-cards {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  align-content: center;
+
+  .card {
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .card-title {
+        font-size: 1.6em;
+        font-weight: 700;
+      }
+
+      .card-text {
+        font-size: 1.12em;
+      }
+    }
+  }
+}

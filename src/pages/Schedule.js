@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Jumbotron, Row, Col, ListGroup } from 'react-bootstrap';
-import './Section.scss';
+import { Container, Row, Col, ListGroup } from 'react-bootstrap';
+import '../components/Section.scss';
+import Header from '../components/Header';
 
 const TimeList = (props) => {
   return (
@@ -28,23 +29,23 @@ const scheduleInfo = {
     ['8:00 PM', 'Workshop #4*']
   ],
   Sunday: [
-    ['12: 00 AM', 'Midnight Snack'],
-    ['2: 00 AM', 'Game Break *'],
-    ['7: 00 AM', 'Breakfast'],
-    ['9: 00 AM', 'Project Submission on DevPost'],
-    ['10: 00 AM', 'Hacking Ends'],
-    ['10: 15 AM', 'Judging(Presentation Style) '],
-    ['11: 40 AM', 'Closing Ceremony'],
-    ['12: 00 AM', 'Event Ends']
+    ['12:00 AM', 'Midnight Snack'],
+    ['2:00 AM', 'Game Break *'],
+    ['7:00 AM', 'Breakfast'],
+    ['9:00 AM', 'Project Submission on DevPost'],
+    ['10:00 AM', 'Hacking Ends'],
+    ['10:15 AM', 'Judging(Presentation Style) '],
+    ['11:40 AM', 'Closing Ceremony'],
+    ['12:00 AM', 'Event Ends']
   ]
 }
 
 const Schedule = React.forwardRef((props, ref) => (
   <Container fluid className="px-0 mx-0 my-4 py-4" ref={ref}>
-    <Jumbotron className="bg-transparent m-0 rounded-0 text-light">
-      <h1 className="display-4 text-center">Schedule</h1>
+    <Header>
+      Schedule
       <h2 className="text-center">(tentative)</h2>
-    </Jumbotron>
+    </Header>
     <Row>
       <Col></Col>
       <Col lg={5} className="mb-3">

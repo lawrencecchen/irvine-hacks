@@ -1,6 +1,8 @@
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Nunito:200&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700,900&display=swap");
+
 // @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 // @import url("https://fonts.googleapis.com/css?family=Amiri|Noto+Serif+JP:300|Saira+Semi+Condensed&display=swap");
 // @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300&display=swap");
@@ -8,7 +10,7 @@
 // https://colorhunt.co/palette/155139
 
 $font-family-nav: "Nunito", sans-serif;
-$font-family-default: "Montserrat", sans-serif;
+$font-family-default: "Nunito", sans-serif;
 $gradient-background: linear-gradient(
     0deg,
     rgba(51, 74, 220, 0.44) 0%,
@@ -48,7 +50,8 @@ $gradient-background: linear-gradient(
     rgb(76, 23, 207) 100%
   );
 $nav: transparent;
-$nav-dark: rgba(113, 35, 180, 0.94);
+$nav-dark: rgba(113, 35, 180, 0.96);
+// $nav-dark: rgba(76, 23, 207, 1);
 
 $theme-colors: (
   primary: #543864,

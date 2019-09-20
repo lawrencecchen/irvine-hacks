@@ -1,7 +1,8 @@
 import React from 'react';
 import { Navbar, Nav, Button, Container } from 'react-bootstrap';
 import { ReactComponent as Logo } from '../media/logo.svg';
-import './Navigation.scss';
+import RegisterButton from '../components/RegisterButton';
+import '../components/Navigation.scss';
 
 class Navigation extends React.Component {
   constructor(props) {
@@ -45,7 +46,7 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <Container fluid ref={node => this.node = node}>
+      <Container fluid ref={node => this.node = node} id="navigation">
         <Navbar
           onToggle={this.setIsNavExpanded}
           expanded={this.state.isNavExpanded}
@@ -54,11 +55,12 @@ class Navigation extends React.Component {
           variant="dark"
           fixed="top"
           className={`py-0 ${this.state.yFromTop <= 53 ? 'nav' : 'navbar-darken'}`}
+          fluid
         >
           <Navbar.Brand>
             <Logo id="logo" />
             <Nav.Link
-              id="title"
+              id="nav-title"
               href="#about"
               onClick={() => this.handleClick(this.props.sections.About)}
               className="text-light"
@@ -69,24 +71,18 @@ class Navigation extends React.Component {
               Irvine Hacks
           </Nav.Link>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" fluid />
+          <Navbar.Collapse id="responsive-navbar-nav" fluid>
             <Nav className="ml-auto">
               <Nav.Link href="#about" onClick={() => this.handleClick(this.props.sections.About)}>About Us</Nav.Link>
               <Nav.Link href="#faq" onClick={() => this.handleClick(this.props.sections.FAQ)}>FAQ</Nav.Link>
               <Nav.Link href="#schedule" onClick={() => this.handleClick(this.props.sections.Schedule)}>Schedule</Nav.Link>
               <Nav.Link href="#sponsors" onClick={() => this.handleClick(this.props.sections.Sponsors)}>Sponsors</Nav.Link>
+              <Nav.Link href="#team" onClick={() => this.handleClick(this.props.sections.Team)}>Meet the Team</Nav.Link>
               {/* <Nav.Link href="#prospectus" onClick={() => this.handleClick(this.props.sections.FAQ)}>Prospectus</Nav.Link> */}
               <Nav.Link href="#contact" onClick={() => this.handleClick(this.props.sections.Contact)}>Contact</Nav.Link>
               <Nav.Link>
-                <Button
-                  className="my-0 mr-1 btn-lg"
-                  variant="btn"
-                  id="eventbrite-widget-modal-trigger-69687181235"
-                  onSelect={this.setIsNavExpanded}
-                >
-                  Register Now
-                </Button>
+                <RegisterButton />
               </Nav.Link>
               <Nav.Link>
                 {/* <a href=""> */}

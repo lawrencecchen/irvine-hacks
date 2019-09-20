@@ -1,6 +1,6 @@
 @import "../custom.scss";
 
-#title {
+#nav-title {
   font-size: 30px;
 }
 
@@ -19,6 +19,7 @@
 .navbar {
   transition: background-color 0.3s ease-out;
   background: $nav;
+  flex-wrap: wrap;
 }
 
 .navbar-darken,
@@ -26,22 +27,4 @@
 .navbar:hover {
   background: $nav-dark;
   // opacity: 0.9;
-}
-
-// @keyframes nav-darken {
-//   from {
-//     background: transparent;
-//   }
-//   to {
-//     background: rgba(76, 23, 207, 0.44);
-//   }
-// }
-
-@media (max-width: 1041px) {
-  .navbar * {
-    font-size: 15px;
-  }
-  #title {
-    padding: 0 0 !important;
-  }
 }
