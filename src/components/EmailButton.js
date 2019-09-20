@@ -17,6 +17,7 @@ const EmailButton = (props) => {
         }
       }
       rel="noopener noreferrer"
+      target="_blank"
     >
       <FiMail
         style={

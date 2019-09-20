@@ -16,7 +16,8 @@ const Profile = (props) => {
                 width: '100px',
                 height: '100px',
                 background: `url(${props.src})`,
-                backgroundSize: 'contain',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat'
               }
             }
           >

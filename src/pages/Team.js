@@ -4,6 +4,8 @@ import WilliamHu from '../media/profile/William_Hu.jpg';
 import AnshikaAgrawal from '../media/profile/AnshikaAgrawal.jpg';
 import ZainaShaik from '../media/profile/ZainaShaik.jpg';
 import LisaShi from '../media/profile/Lisa_Shi.jpeg';
+import RajKumar from '../media/profile/Raj_Kumar.jpg';
+import MichaelShi from '../media/profile/Michael_Shi.png';
 import Unknown from '../media/profile/Unknown.jpg';
 import Profile from '../components/Profile';
 import Header from '../components/Header';
@@ -28,9 +30,9 @@ const Team = React.forwardRef((props, ref) => (
         <Profile src={Unknown} name="Shivani Pasricha" role="Lead Organizer"></Profile>
         <Profile src={Unknown} name="Lawrence Chen" role="Tech" email="lawrencechen2002@gmail.com"></Profile>
         <Profile src={LisaShi} name="Lisa Shi" role="Tech"></Profile>
-        <Profile src={AnshikaAgrawal} name="Anshika Agrawal" role="Finance"></Profile>
-        <Profile src={Unknown} name="Raj Kumar" role="Finance"></Profile>
-        <Profile src={Unknown} name="Michael Shi" role="Marketing"></Profile>
+        <Profile src={AnshikaAgrawal} name="Anshika Agrawal" role="Finance" email="anshi2002@gmaill.com"></Profile>
+        <Profile src={RajKumar} name="Raj Kumar" role="Finance"></Profile>
+        <Profile src={MichaelShi} name="Michael Shi" role="Marketing"></Profile>
         <Profile src={ZainaShaik} name="Zaina Shaik" role="Marketing" email="zainashaik02@gmail.com"></Profile>
       </Container>
     </Jumbotron>
