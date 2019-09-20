@@ -3,6 +3,7 @@ import { Container, Jumbotron } from 'react-bootstrap';
 import WilliamHu from '../media/profile/William_Hu.jpg';
 import AnshikaAgrawal from '../media/profile/AnshikaAgrawal.jpg';
 import ZainaShaik from '../media/profile/ZainaShaik.jpg';
+import LisaShi from '../media/profile/Lisa_Shi.jpeg';
 import Unknown from '../media/profile/Unknown.jpg';
 import Profile from '../components/Profile';
 import Header from '../components/Header';
@@ -15,7 +16,7 @@ const Team = React.forwardRef((props, ref) => (
     </Header>
     <Jumbotron className="bg-transparent m-0 p-0 rounded-0 text-center" fluid>
       <Container id="responsive-cards">
-        <Profile src={Unknown} name="Evan Nishi" role="Lead Organizer"></Profile>
+        <Profile src={Unknown} name="Evan Nishi" role="Mentor"></Profile>
       </Container>
     </Jumbotron>
     <Header>
@@ -25,13 +26,12 @@ const Team = React.forwardRef((props, ref) => (
       <Container id="responsive-cards">
         <Profile src={WilliamHu} name="William Hu" role="Lead Organizer" email="williamhu750@gmail.com"></Profile>
         <Profile src={Unknown} name="Shivani Pasricha" role="Lead Organizer"></Profile>
-        <Profile src={Unknown} name="Evan Nishi" role="Lead Organizer"></Profile>
         <Profile src={Unknown} name="Lawrence Chen" role="Tech" email="lawrencechen2002@gmail.com"></Profile>
-        <Profile src={AnshikaAgrawal} name="Anshika Agrawal" role=""></Profile>
-        <Profile src={Unknown} name="Lisa Shi" role="Tech"></Profile>
-        <Profile src={Unknown} name="Raj Kumar" role="Lead Organizer"></Profile>
-        <Profile src={Unknown} name="Michael Shi" role="Lead Organizer"></Profile>
-        <Profile src={ZainaShaik} name="Zaina Shaik" role="Lead Organizer" email="zainashaik02@gmail.com"></Profile>
+        <Profile src={LisaShi} name="Lisa Shi" role="Tech"></Profile>
+        <Profile src={AnshikaAgrawal} name="Anshika Agrawal" role="Finance"></Profile>
+        <Profile src={Unknown} name="Raj Kumar" role="Finance"></Profile>
+        <Profile src={Unknown} name="Michael Shi" role="Marketing"></Profile>
+        <Profile src={ZainaShaik} name="Zaina Shaik" role="Marketing" email="zainashaik02@gmail.com"></Profile>
       </Container>
     </Jumbotron>
   </Container>
