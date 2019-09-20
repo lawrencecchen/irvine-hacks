@@ -85,9 +85,12 @@ class Navigation extends React.Component {
                 <RegisterButton />
               </Nav.Link>
               <Nav.Link>
-                {/* <a href=""> */}
-                <Button className="m-0 btn-lg btn-outline-light bg-secondary text-light" disabled>Sponsor Us</Button>
-                {/* </a> */}
+                <Button
+                  className="m-0 btn-lg btn-outline-light bg-secondary text-light"
+                  onClick={() => this.handleClick(this.props.sections.Sponsors)}
+                >
+                  Sponsor Us
+                </Button>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
