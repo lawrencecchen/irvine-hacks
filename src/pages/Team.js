@@ -31,10 +31,10 @@ const Team = React.forwardRef((props, ref) => (
         <Profile src={WilliamHu} name="William Hu" role="Lead Organizer" email="williamhu750@gmail.com"></Profile>
         <Profile src={ShivaniPrisricha} name="Shivani Pasricha" role="Lead Organizer" email="pasricha.shivani@gmail.com"></Profile>
         <Profile src={LawrenceChen} name="Lawrence Chen" role="Tech" email="lawrencechen2002@gmail.com"></Profile>
-        <Profile src={LisaShi} name="Lisa Shi" role="Tech"></Profile>
+        <Profile src={LisaShi} name="Lisa Shi" role="Tech" email="Lisa.Lshi@gmail.com"></Profile>
         <Profile src={AnshikaAgrawal} name="Anshika Agrawal" role="Finance" email="anshi2002@gmaill.com"></Profile>
         <Profile src={RajKumar} name="Raj Kumar" role="Finance"></Profile>
-        <Profile src={MichaelShi} name="Michael Shi" role="Marketing"></Profile>
+        <Profile src={MichaelShi} name="Michael Shi" role="Marketing" email="michshi8@gmail.com"></Profile>
         <Profile src={ZainaShaik} name="Zaina Shaik" role="Marketing" email="zainashaik02@gmail.com"></Profile>
       </Container>
     </Jumbotron>
