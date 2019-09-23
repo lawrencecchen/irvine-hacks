@@ -3,7 +3,7 @@ import { Container, Jumbotron } from 'react-bootstrap';
 import Header from '../components/Header';
 import EmailHyperlink from '../components/EmailHyperlink';
 import ImageLink from '../components/ImageLink';
-import HackClubBankDark from '../media/sponsors/HackClubBankDark.png';
+import HackClubBankLight from '../media/sponsors/HackClubBankLight.png';
 
 const Sponsors = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
@@ -11,7 +11,7 @@ const Sponsors = React.forwardRef((props, ref) => (
       Sponsors
     </Header>
     <Container className="d-flex justify-content-center mb-4">
-      <ImageLink href="https://hackclub.com/bank/" url={HackClubBankDark} />
+      <ImageLink href="https://hackclub.com/bank/" url={HackClubBankLight} />
     </Container>
     <Jumbotron className="bg-light rounded-0">
       <p style={{ fontSize: '1.3em' }}>

@@ -9,7 +9,7 @@ const ImageLink = (props) => {
         src={props.url}
         style={
           {
-            width: '200px',
+            width: '340px',
           }
         }
         alt=""
