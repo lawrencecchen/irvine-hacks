@@ -81,8 +81,15 @@ class Navigation extends React.Component {
               <Nav.Link href="#team" onClick={() => this.handleClick(this.props.sections.Team)}>Meet the Team</Nav.Link>
               {/* <Nav.Link href="#prospectus" onClick={() => this.handleClick(this.props.sections.FAQ)}>Prospectus</Nav.Link> */}
               <Nav.Link href="#contact" onClick={() => this.handleClick(this.props.sections.Contact)}>Contact</Nav.Link>
-              <Nav.Link>
-                <RegisterButton />
+              <Nav.Link as="span">
+                <Button
+                  className="my-0 mr-1 btn-lg d-flex align-items-center justify-content-center"
+                  variant="btn"
+                  href="https://airtable.com/shreV73Hi2wPaizAB"
+                  target="_blank"
+                >
+                  Register Now
+                </Button>
               </Nav.Link>
               <Nav.Link>
                 <Button
