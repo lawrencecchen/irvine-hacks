@@ -16,14 +16,6 @@ import '../components/Cards.scss';
 const Team = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
     <Header>
-      Advisors
-    </Header>
-    <Jumbotron className="bg-transparent m-0 p-0 rounded-0 text-center" fluid>
-      <Container id="responsive-cards">
-        <Profile src={Unknown} name="Evan Nishi" role="Mentor"></Profile>
-      </Container>
-    </Jumbotron>
-    <Header>
       Leadership
     </Header>
     <Jumbotron className="bg-transparent m-0 p-0 rounded-0 text-center" fluid>
