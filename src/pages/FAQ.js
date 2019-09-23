@@ -34,7 +34,7 @@ const FAQ = React.forwardRef((props, ref) => (
         <Card.Body>
           <Card.Title>Hacking? Is that legal?</Card.Title>
           <Card.Text>
-            $0 - Registration and attendance are totally free! Meals, snacks, food, drinks, and workshops included.
+            Hackathons do not necessarily deal with breaching computer systems and exploiting vulnerabilities. Instead, the word is being redefined into creating unique and innovative projects within a time period.
           </Card.Text>
         </Card.Body>
       </Card>
