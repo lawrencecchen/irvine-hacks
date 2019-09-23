@@ -28,10 +28,11 @@ const About = React.forwardRef((props, ref) => (
           Venue TBD
         </p>
         <Button
-          className="my-0 mr-1 btn-lg"
+          className="my-0 mr-1 btn-lg d-flex align-items-center justify-content-center"
           variant="btn"
-          id="eventbrite-widget-modal-trigger-69687181235"
-          style={{ display: 'block', width: '240px', height: '70px', fontSize: '2em' }}
+          style={{ width: '240px', height: '70px', fontSize: '2em' }}
+          href="https://airtable.com/shreV73Hi2wPaizAB"
+          target="_blank"
         >
           Register Now
         </Button>

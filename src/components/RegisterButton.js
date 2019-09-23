@@ -4,13 +4,13 @@ import { Button } from 'react-bootstrap';
 const RegisterButton = () => {
   return (
     <Button
-      className="my-0 mr-1 btn-lg"
+      className="my-0 mr-1 btn-lg d-flex align-items-center justify-content-center"
       variant="btn"
-      id="eventbrite-widget-modal-trigger-69687181235"
-      style={{ display: 'block' }}
+      href="https://airtable.com/shreV73Hi2wPaizAB"
+      target="_blank"
     >
       Register Now
-    </Button>
+        </Button>
   );
 }
 
