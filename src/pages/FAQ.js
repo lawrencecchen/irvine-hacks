@@ -38,6 +38,28 @@ const FAQ = React.forwardRef((props, ref) => (
           </Card.Text>
         </Card.Body>
       </Card>
+      <Card
+        as="a"
+        href="https://www.wsj.com/articles/teen-hackers-try-to-convince-parents-they-are-up-to-good-11569922200"
+        target="_blank"
+        className="p-0 border-5"
+      >
+        <Card.Body style={
+          {
+            backgroundImage: 'url(https://images.wsj.net/im-112234/IM)',
+            backgroundSize: 'cover',
+            filter: 'blur(20)',
+            borderRadius: '3px'
+          }
+        }>
+          <Card.Title
+            style={{ zIndex: 1 }}
+            className="text-light"
+          >
+            Check out Wall Street Journal's article about "hacking"!
+           </Card.Title>
+        </Card.Body>
+      </Card>
       <Card>
         <Card.Body>
           <Card.Title>How much does it cost?</Card.Title>
@@ -79,7 +101,7 @@ const FAQ = React.forwardRef((props, ref) => (
         </Card.Body>
       </Card>
     </Container>
-  </Container>
+  </Container >
 ));
 
 export default FAQ;
