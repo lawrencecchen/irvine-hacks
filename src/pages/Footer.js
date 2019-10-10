@@ -15,13 +15,13 @@ const Footer = React.forwardRef((props, ref) => (
           <TiMail style={{ width: '45px', height: '45px', lineHeight: '.9' }} />
         </EmailHyperlink>
       </Row>
-      <Row className="m-3 font-weight-bold" style={{ fontSize: '1.2em', lineHeight: '.9' }}>
+      {/* <Row className="m-3 font-weight-bold" style={{ fontSize: '1.2em', lineHeight: '.9' }}>
         Site by&nbsp;<EmailHyperlink email="lawrencechen2002@gmail.com">
           <span className="text-light">
             Lawrence Chen
           </span>
         </EmailHyperlink>
-      </Row>
+      </Row> */}
       <Row className="m-2 text-center bg-light text-muted p-1 rounded">
         Fiscally sponsored by The Hack Foundation.<br />
         Nonprofit EIN: 81-2908499.

@@ -1,11 +1,13 @@
 import React from 'react';
 import { FiMail } from 'react-icons/fi';
+import Button from 'react-bootstrap/Button';
 
 const EmailButton = (props) => {
   return (
-    <a
+    <Button
+      as="a"
       href={`mailto:${props.email}`}
-      className="bg-btn text-light"
+      className="bg-btn text-light border-0"
       style={
         {
           width: '30px',
@@ -24,9 +26,12 @@ const EmailButton = (props) => {
           {
             width: '20px',
             height: '20px',
-            transform: 'translateY(2.6px)'
+            position: 'absolute',
+            left: '50%',
+            top: '50%',
+            transform: 'translate(-50%, -50%)'
           }} />
-    </a>
+    </Button>
   );
 }
 

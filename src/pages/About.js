@@ -19,7 +19,7 @@ const About = React.forwardRef((props, ref) => (
       >
         <h1 className="text-center">Irvine Hacks</h1>
         <p className="text-light subtitle text-center">
-          a 12-hour High School Hackathon, hosted by Irvine students.
+          a <strong>12-hour</strong> High School Hackathon, hosted by Irvine students.
         </p>
         <p className="text-light subtitle">
           2019 November 16 - 17
