@@ -22,8 +22,8 @@ const About = React.forwardRef((props, ref) => (
           a <strong>12-hour</strong> High School Hackathon, hosted by Irvine students.
         </p>
         <p className="text-light subtitle">
-          2019 November 16
-            </p>
+          2020 February 15
+        </p>
         <p className="text-light subtitle">
           Venue TBD
         </p>
