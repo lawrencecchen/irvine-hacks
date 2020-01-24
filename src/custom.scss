@@ -60,7 +60,8 @@ $theme-colors: (
   invert: #c6d6bc,
   btn: #ff6464,
   nav-dark: rgba(113, 35, 180, 0.44),
-  emphasis: #ff6464
+  emphasis: #ff6464,
+  accent: #fc3434
 );
 
 @import "~bootstrap/scss/bootstrap";
