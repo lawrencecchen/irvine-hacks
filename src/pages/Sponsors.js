@@ -5,6 +5,7 @@ import EmailHyperlink from "../components/EmailHyperlink";
 import ImageLink from "../components/ImageLink";
 import HackClubBankLight from "../media/sponsors/HackClubBankLight.png";
 import Balsamiq from "../media/sponsors/balsamiq-logo-screen.svg";
+import StickerMule from "../media/sponsors/Sticker-Mule-logo-SVG/sticker-mule-logo-white.svg";
 
 const Sponsors = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
@@ -19,6 +20,9 @@ const Sponsors = React.forwardRef((props, ref) => (
         </div>
         <div class="col-md mt-3 text-center">
           <ImageLink href="https://balsamiq.com/" url={Balsamiq} />
+        </div>
+        <div class="col-md mt-3 text-center rounded">
+          <ImageLink href="https://www.stickermule.com/" url={StickerMule} />
         </div>
       </div>
     </Container>
