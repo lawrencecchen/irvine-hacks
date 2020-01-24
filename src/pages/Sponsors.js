@@ -5,7 +5,7 @@ import EmailHyperlink from "../components/EmailHyperlink";
 import ImageLink from "../components/ImageLink";
 import HackClubBankLight from "../media/sponsors/HackClubBankLight.png";
 import Balsamiq from "../media/sponsors/balsamiq-logo-screen.svg";
-import StickerMule from "../media/sponsors/Sticker-Mule-logo-SVG/sticker-mule-logo-white.svg";
+import StickerMule from "../media/sponsors/sticker-mule-logo-white.svg";
 
 const Sponsors = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
