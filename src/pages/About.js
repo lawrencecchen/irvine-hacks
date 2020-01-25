@@ -23,7 +23,7 @@ const About = React.forwardRef((props, ref) => (
           students.
         </p>
         <p className="text-light subtitle font-weight-bold">2020 February 29</p>
-        <p className="text-light subtitle">
+        <p className="text-light subtitle text-center">
           Venue:{" "}
           <a
             href="https://goo.gl/maps/nLGnQ5ZnxntTUZM4A"
@@ -57,14 +57,12 @@ const About = React.forwardRef((props, ref) => (
         will be provided free thanks to our many sponsors!
       </Jumbotron>
     </Container>
-    <Container fluid className="mt-5 text-center">
+    <Container className="mt-5 text-center embed-responsive embed-responsive-16by9 p-3">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.2047444833033!2d-117.84878798470552!3d33.70365058070224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdeb082185a59%3A0x81d33be601babaff!2s2850%20Red%20Hill%20Ave%20%23130%2C%20Santa%20Ana%2C%20CA%2092705!5e0!3m2!1sen!2sus!4v1579909407456!5m2!1sen!2sus"
-        width="600"
-        height="450"
         frameborder="0"
         allowfullscreen=""
-        className="border-0 mx-auto"
+        className="border-0 embed-responsive-item"
       ></iframe>
     </Container>
   </Container>
