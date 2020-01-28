@@ -6,6 +6,9 @@ import ImageLink from "../components/ImageLink";
 import HackClubBankLight from "../media/sponsors/HackClubBankLight.png";
 import Balsamiq from "../media/sponsors/balsamiq-logo-screen.svg";
 import StickerMule from "../media/sponsors/sticker-mule-logo-white.svg";
+import GitHub from "../media/sponsors/GitHub_Logo_White.png";
+import AgalmacVentures from "../media/sponsors/agalmic_ventures.png";
+import RedwoodAcademy from "../media/sponsors/redwood_code_academy.png";
 
 const Sponsors = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
@@ -18,11 +21,26 @@ const Sponsors = React.forwardRef((props, ref) => (
             url={HackClubBankLight}
           />
         </div>
-        <div class="col-md mt-3 text-center">
+        <div class="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink href="https://balsamiq.com/" url={Balsamiq} />
         </div>
-        <div class="col-md mt-3 text-center rounded">
+        <div class="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink href="https://www.stickermule.com/" url={StickerMule} />
+        </div>
+        <div class="col-md mt-3 text-center rounded d-flex align-self-center">
+          <ImageLink href="https://www.github.com/" url={GitHub} />
+        </div>
+        <div class="col-md mt-3 text-center rounded d-flex align-self-center">
+          <ImageLink
+            href="https://www.agalmicventures.com/"
+            url={AgalmacVentures}
+          />
+        </div>
+        <div class="col-md mt-3 text-center rounded d-flex align-self-center">
+          <ImageLink
+            href="https://redwoodcodeacademy.com/"
+            url={RedwoodAcademy}
+          />
         </div>
       </div>
     </Container>
