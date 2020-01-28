@@ -1,21 +1,17 @@
-import React from 'react';
+import React from "react";
 
-const ImageLink = (props) => {
+const ImageLink = props => {
   return (
-    <a
-      href={props.href}
-    >
+    <a href={props.href} target="_blank">
       <img
         src={props.url}
-        style={
-          {
-            width: '340px',
-          }
-        }
+        style={{
+          width: "340px"
+        }}
         alt=""
       />
     </a>
   );
-}
+};
 
 export default ImageLink;
