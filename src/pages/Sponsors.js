@@ -13,30 +13,30 @@ import RedwoodAcademy from "../media/sponsors/redwood_code_academy.png";
 const Sponsors = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
     <Header>Sponsors</Header>
-    <Container className="d-flex justify-content-center mb-4">
-      <div class="row">
-        <div class="col-md mt-3 text-center">
+    <Container className="mb-4 text-center">
+      <div className="row text-center">
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink
             href="https://hackclub.com/bank/"
             url={HackClubBankLight}
           />
         </div>
-        <div class="col-md mt-3 text-center rounded d-flex align-self-center">
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink href="https://balsamiq.com/" url={Balsamiq} />
         </div>
-        <div class="col-md mt-3 text-center rounded d-flex align-self-center">
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink href="https://www.stickermule.com/" url={StickerMule} />
         </div>
-        <div class="col-md mt-3 text-center rounded d-flex align-self-center">
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink href="https://www.github.com/" url={GitHub} />
         </div>
-        <div class="col-md mt-3 text-center rounded d-flex align-self-center">
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink
             href="https://www.agalmicventures.com/"
             url={AgalmacVentures}
           />
         </div>
-        <div class="col-md mt-3 text-center rounded d-flex align-self-center">
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink
             href="https://redwoodcodeacademy.com/"
             url={RedwoodAcademy}

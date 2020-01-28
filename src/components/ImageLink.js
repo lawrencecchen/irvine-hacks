@@ -2,7 +2,7 @@ import React from "react";
 
 const ImageLink = props => {
   return (
-    <a href={props.href} target="_blank">
+    <a href={props.href} target="_blank" className="mx-auto">
       <img
         src={props.url}
         style={{
