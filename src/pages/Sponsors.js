@@ -9,6 +9,7 @@ import StickerMule from "../media/sponsors/sticker-mule-logo-white.svg";
 import GitHub from "../media/sponsors/GitHub_Logo_White.png";
 import AgalmacVentures from "../media/sponsors/agalmic_ventures.png";
 import RedwoodAcademy from "../media/sponsors/redwood_code_academy.png";
+import idtech from "../media/sponsors/iD-Tech-Company-Logo-Tagline-Green-White-on-Grey.png";
 
 const Sponsors = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
@@ -41,6 +42,9 @@ const Sponsors = React.forwardRef((props, ref) => (
             href="https://redwoodcodeacademy.com/"
             url={RedwoodAcademy}
           />
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <ImageLink href="https://www.idtech.com/" url={idtech} />
         </div>
       </div>
     </Container>
