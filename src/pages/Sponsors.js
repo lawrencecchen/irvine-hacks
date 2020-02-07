@@ -10,6 +10,7 @@ import GitHub from "../media/sponsors/GitHub_Logo_White.png";
 import AgalmacVentures from "../media/sponsors/agalmic_ventures.png";
 import RedwoodAcademy from "../media/sponsors/redwood_code_academy.png";
 import idtech from "../media/sponsors/iD-Tech-Company-Logo-Tagline-Green-White-on-Grey.png";
+import Wolfram from "../media/sponsors/wolfram-language-text-logo-copy-1.png";
 
 const Sponsors = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
@@ -45,6 +46,11 @@ const Sponsors = React.forwardRef((props, ref) => (
         </div>
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink href="https://www.idtech.com/" url={idtech} />
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <div className="bg-white mx-auto p-3 rounded">
+            <ImageLink href="https://www.wolframalpha.com/" url={Wolfram} />
+          </div>
         </div>
       </div>
     </Container>
