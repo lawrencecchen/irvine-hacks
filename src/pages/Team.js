@@ -4,7 +4,6 @@ import WilliamHu from "../media/profile/William_Hu.jpg";
 import AnshikaAgrawal from "../media/profile/AnshikaAgrawal.jpg";
 import ZainaShaik from "../media/profile/ZainaShaik.jpg";
 import LisaShi from "../media/profile/Lisa_Shi.jpeg";
-import RajKumar from "../media/profile/Raj_Kumar.jpg";
 import MichaelShi from "../media/profile/Michael_Shi.png";
 import LawrenceChen from "../media/profile/Lawrence_Chen.jpg";
 import ShivaniPrisricha from "../media/profile/ShivaniPasricha.jpg";

@@ -11,6 +11,9 @@ import AgalmacVentures from "../media/sponsors/agalmic_ventures.png";
 import RedwoodAcademy from "../media/sponsors/redwood_code_academy.png";
 import idtech from "../media/sponsors/iD-Tech-Company-Logo-Tagline-Green-White-on-Grey.png";
 import Wolfram from "../media/sponsors/wolfram-language-text-logo-copy-1.png";
+import Sashido from "../media/sponsors/sashido-logo-for sites.png";
+import Voiceflow from "../media/sponsors/voiceflow.png";
+import Desmos from "../media/sponsors/desmos.png";
 
 const Sponsors = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
@@ -50,6 +53,21 @@ const Sponsors = React.forwardRef((props, ref) => (
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <div className="bg-white mx-auto p-3 rounded">
             <ImageLink href="https://www.wolframalpha.com/" url={Wolfram} />
+          </div>
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <div className="mx-auto p-3 rounded">
+            <ImageLink href="https://www.sashido.io/en/" url={Sashido} />
+          </div>
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <div className="mx-auto p-3 rounded">
+            <ImageLink href="https://www.voiceflow.com/" url={Voiceflow} />
+          </div>
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <div className="mx-auto p-3 rounded">
+            <ImageLink href="https://www.desmos.com/" url={Desmos} />
           </div>
         </div>
       </div>

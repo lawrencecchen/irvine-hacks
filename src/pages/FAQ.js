@@ -75,8 +75,14 @@ const FAQ = React.forwardRef((props, ref) => (
         <Card.Body>
           <Card.Title>When and Where?</Card.Title>
           <Card.Text>
-            Location and time are to be announced! Please check back later for
-            details.
+            February 29th, 2020 @{" "}
+            <a
+              href="https://goo.gl/maps/nLGnQ5ZnxntTUZM4A"
+              className="text-emphasis font-weight-bold"
+            >
+              2850 Red Hill Ave #130, Santa Ana, CA 92705.
+            </a>{" "}
+            Hope to see you there!
           </Card.Text>
         </Card.Body>
       </Card>
