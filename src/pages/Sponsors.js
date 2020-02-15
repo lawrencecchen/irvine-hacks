@@ -14,6 +14,8 @@ import Wolfram from "../media/sponsors/wolfram-language-text-logo-copy-1.png";
 import Sashido from "../media/sponsors/sashido-logo-for sites.png";
 import Voiceflow from "../media/sponsors/voiceflow.png";
 import Desmos from "../media/sponsors/desmos.png";
+import Sabio from "../media/sponsors/sabio.png";
+import AlphaRed from "../media/sponsors/AlphaRedSolutions.jpg";
 
 const Sponsors = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
@@ -25,6 +27,9 @@ const Sponsors = React.forwardRef((props, ref) => (
             href="https://hackclub.com/bank/"
             url={HackClubBankLight}
           />
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <ImageLink href="https://sabio.la/" url={Sabio} />
         </div>
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink href="https://balsamiq.com/" url={Balsamiq} />
@@ -68,6 +73,11 @@ const Sponsors = React.forwardRef((props, ref) => (
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <div className="mx-auto p-3 rounded">
             <ImageLink href="https://www.desmos.com/" url={Desmos} />
+          </div>
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <div className="mx-auto p-3 rounded">
+            <ImageLink href="http://www.alphareds.com/" url={AlphaRed} />
           </div>
         </div>
       </div>
