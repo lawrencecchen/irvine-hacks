@@ -46,9 +46,9 @@ const About = React.forwardRef((props, ref) => (
     <Container fluid className="bg-light">
       <Jumbotron className="bg-transparent mb-0" id="mission-statement">
         Irvine Hacks is a <strong className="text-emphasis">12-hour</strong>{" "}
-        student-organized hackathon in which over a hundred students will be
-        able to build transformative projects, one line of code at a time.
-        Whether participants decide to tackle some of the world’s most pressing{" "}
+        student-organized hackathon in which high school students will be able
+        to build transformative projects, one line of code at a time. Whether
+        participants decide to tackle some of the world’s most pressing{" "}
         <strong className="text-emphasis">
           social and environmental issues
         </strong>{" "}
