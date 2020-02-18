@@ -16,6 +16,7 @@ import Voiceflow from "../media/sponsors/voiceflow.png";
 import Desmos from "../media/sponsors/desmos.png";
 import Sabio from "../media/sponsors/sabio.png";
 import AlphaRed from "../media/sponsors/AlphaRedSolutions.jpg";
+import ChallengeRocket from "../media/sponsors/challengerocket_logo.png";
 
 const Sponsors = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
@@ -78,6 +79,14 @@ const Sponsors = React.forwardRef((props, ref) => (
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <div className="mx-auto p-3 rounded">
             <ImageLink href="http://www.alphareds.com/" url={AlphaRed} />
+          </div>
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <div className="mx-auto p-3 rounded">
+            <ImageLink
+              href="https://challengerocket.com/?utm_source=www&utm_medium=link&utm_campaign=partnership_logo&utm_term=kar&utm_content=irvinehacks"
+              url={ChallengeRocket}
+            />
           </div>
         </div>
       </div>
