@@ -9,7 +9,7 @@ import StickerMule from "../media/sponsors/sticker-mule-logo-white.svg";
 import GitHub from "../media/sponsors/GitHub_Logo_White.png";
 import AgalmacVentures from "../media/sponsors/agalmic_ventures.png";
 import RedwoodAcademy from "../media/sponsors/redwood_code_academy.png";
-import idtech from "../media/sponsors/iD-Tech-Company-Logo-Tagline-Green-White-on-Grey.png";
+import idtech from "../media/sponsors/IDTech.png";
 import Wolfram from "../media/sponsors/wolfram-language-text-logo-copy-1.png";
 import Sashido from "../media/sponsors/sashido-logo-for sites.png";
 import Voiceflow from "../media/sponsors/voiceflow.png";
