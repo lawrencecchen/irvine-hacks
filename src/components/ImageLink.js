@@ -6,7 +6,8 @@ const ImageLink = props => {
       <img
         src={props.url}
         style={{
-          width: "340px"
+          maxWidth: "300px",
+          maxHeight: "200px"
         }}
         alt=""
       />

@@ -17,6 +17,10 @@ import Desmos from "../media/sponsors/desmos.png";
 import Sabio from "../media/sponsors/sabio.png";
 import AlphaRed from "../media/sponsors/AlphaRedSolutions.jpg";
 import ChallengeRocket from "../media/sponsors/challengerocket_logo.png";
+import Ultrapress from "../media/sponsors/Ultrapress.png";
+import CodeNinjas from "../media/sponsors/CodeNinjas.png";
+import LeanGap from "../media/sponsors/Leangap.png";
+import Bugsee from "../media/sponsors/Bugsee.png";
 
 const Sponsors = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
@@ -33,13 +37,24 @@ const Sponsors = React.forwardRef((props, ref) => (
           <ImageLink href="https://sabio.la/" url={Sabio} />
         </div>
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
-          <ImageLink href="https://balsamiq.com/" url={Balsamiq} />
-        </div>
-        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
-          <ImageLink href="https://www.stickermule.com/" url={StickerMule} />
+          <ImageLink
+            href="https://redwoodcodeacademy.com/"
+            url={RedwoodAcademy}
+          />
         </div>
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink href="https://www.github.com/" url={GitHub} />
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <div className="mx-auto p-3 rounded">
+            <ImageLink href="http://www.alphareds.com/" url={AlphaRed} />
+          </div>
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <ImageLink href="https://balsamiq.com/" url={Balsamiq} />
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <ImageLink href="https://www.idtech.com/" url={idtech} />
         </div>
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink
@@ -48,28 +63,16 @@ const Sponsors = React.forwardRef((props, ref) => (
           />
         </div>
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
-          <ImageLink
-            href="https://redwoodcodeacademy.com/"
-            url={RedwoodAcademy}
-          />
+          <ImageLink href="https://www.ultrapress.com/" url={Ultrapress} />
         </div>
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
-          <ImageLink href="https://www.idtech.com/" url={idtech} />
+          <ImageLink href="https://www.codeninjas.com/" url={CodeNinjas} />
         </div>
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
-          <div className="bg-white mx-auto p-3 rounded">
-            <ImageLink href="https://www.wolframalpha.com/" url={Wolfram} />
-          </div>
+          <ImageLink href="https://www.stickermule.com/" url={StickerMule} />
         </div>
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
-          <div className="mx-auto p-3 rounded">
-            <ImageLink href="https://www.sashido.io/en/" url={Sashido} />
-          </div>
-        </div>
-        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
-          <div className="mx-auto p-3 rounded">
-            <ImageLink href="https://www.voiceflow.com/" url={Voiceflow} />
-          </div>
+          <ImageLink href="https://leangap.org/" url={LeanGap} />
         </div>
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <div className="mx-auto p-3 rounded">
@@ -78,15 +81,28 @@ const Sponsors = React.forwardRef((props, ref) => (
         </div>
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <div className="mx-auto p-3 rounded">
-            <ImageLink href="http://www.alphareds.com/" url={AlphaRed} />
-          </div>
-        </div>
-        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
-          <div className="mx-auto p-3 rounded">
             <ImageLink
               href="https://challengerocket.com/?utm_source=www&utm_medium=link&utm_campaign=partnership_logo&utm_term=kar&utm_content=irvinehacks"
               url={ChallengeRocket}
             />
+          </div>
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <div className="mx-auto p-3 rounded">
+            <ImageLink href="https://bugsee.com" url={Bugsee} />
+          </div>
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <div className="mx-auto p-3 rounded">
+            <ImageLink href="https://www.sashido.io/en/" url={Sashido} />
+          </div>
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <ImageLink href="https://www.wolframalpha.com/" url={Wolfram} />
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <div className="mx-auto p-3 rounded">
+            <ImageLink href="https://www.voiceflow.com/" url={Voiceflow} />
           </div>
         </div>
       </div>
