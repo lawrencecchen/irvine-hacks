@@ -15,12 +15,13 @@ import Sashido from "../media/sponsors/sashido-logo-for sites.png";
 import Voiceflow from "../media/sponsors/voiceflow.png";
 import Desmos from "../media/sponsors/desmos.png";
 import Sabio from "../media/sponsors/sabio.png";
-import AlphaRed from "../media/sponsors/AlphaRedSolutions.jpg";
+import AlphaRed from "../media/sponsors/AlphaRedSolutions.png";
 import ChallengeRocket from "../media/sponsors/challengerocket_logo.png";
 import Ultrapress from "../media/sponsors/Ultrapress.png";
 import CodeNinjas from "../media/sponsors/CodeNinjas.png";
 import LeanGap from "../media/sponsors/Leangap.png";
 import Bugsee from "../media/sponsors/Bugsee.png";
+import CaliforniaMilanMedicalCenter from "../media/sponsors/CaliforniaMilanMedicalCenter.png";
 
 const Sponsors = React.forwardRef((props, ref) => (
   <Container fluid className="p-0 m-0" ref={ref}>
@@ -41,6 +42,9 @@ const Sponsors = React.forwardRef((props, ref) => (
             href="https://redwoodcodeacademy.com/"
             url={RedwoodAcademy}
           />
+        </div>
+        <div className="col-md mt-3 text-center rounded d-flex align-self-center">
+          <ImageLink url={CaliforniaMilanMedicalCenter} />
         </div>
         <div className="col-md mt-3 text-center rounded d-flex align-self-center">
           <ImageLink href="https://www.github.com/" url={GitHub} />
