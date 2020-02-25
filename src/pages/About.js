@@ -32,15 +32,26 @@ const About = React.forwardRef((props, ref) => (
             2850 Red Hill Ave #130, Santa Ana, CA 92705
           </a>
         </p>
-        <Button
-          className="my-0 mr-1 btn-lg d-flex align-items-center justify-content-center"
-          variant="btn"
-          style={{ width: "240px", height: "70px", fontSize: "2em" }}
-          href="https://airtable.com/shreV73Hi2wPaizAB"
-          target="_blank"
-        >
-          Register Now
-        </Button>
+        <div className="d-flex">
+          <Button
+            className="my-0 mr-5 btn-lg d-flex align-items-center justify-content-center"
+            variant="btn"
+            style={{ width: "240px", height: "70px", fontSize: "2em" }}
+            href="https://airtable.com/shreV73Hi2wPaizAB"
+            target="_blank"
+          >
+            Register Now
+          </Button>
+          <Button
+            className="my-0 mr-1 btn-lg d-flex align-items-center justify-content-center bg-nav-dark border-none"
+            variant="btn"
+            style={{ width: "240px", height: "70px", fontSize: "2em" }}
+            href="http://bit.ly/IrvineHacksVolunteer"
+            target="_blank"
+          >
+            Volunteer
+          </Button>
+        </div>
       </Jumbotron>
     </Container>
     <Container fluid className="bg-light">
