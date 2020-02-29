@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Jumbotron, Button } from "react-bootstrap";
+import { Container, Jumbotron, Button, Row, Col } from "react-bootstrap";
 import "../components/Section.scss";
 // import RegisterButton from '../components/RegisterButton';
 // import Background from '../media/undraw_web_development_w2vv.svg';
@@ -32,26 +32,30 @@ const About = React.forwardRef((props, ref) => (
             2850 Red Hill Ave #130, Santa Ana, CA 92705
           </a>
         </p>
-        <div className="d-flex">
-          <Button
-            className="my-0 mr-5 btn-lg d-flex align-items-center justify-content-center"
-            variant="btn"
-            style={{ width: "240px", height: "70px", fontSize: "2em" }}
-            href="https://airtable.com/shreV73Hi2wPaizAB"
-            target="_blank"
-          >
-            Register Now
-          </Button>
-          <Button
-            className="my-0 mr-1 btn-lg d-flex align-items-center justify-content-center bg-nav-dark border-none"
-            variant="btn"
-            style={{ width: "240px", height: "70px", fontSize: "2em" }}
-            href="http://bit.ly/IrvineHacksVolunteer"
-            target="_blank"
-          >
-            Volunteer
-          </Button>
-        </div>
+        <Row className="d-flex">
+          <Col>
+            <Button
+              className="mx-auto mb-3 btn-lg d-flex align-items-center justify-content-center"
+              variant="btn"
+              style={{ width: "240px", height: "70px", fontSize: "2em" }}
+              href="https://airtable.com/shreV73Hi2wPaizAB"
+              target="_blank"
+            >
+              Register Now
+            </Button>
+          </Col>
+          <Col>
+            <Button
+              className="mx-auto btn-lg d-flex align-items-center justify-content-center bg-nav-dark border-none"
+              variant="btn"
+              style={{ width: "240px", height: "70px", fontSize: "2em" }}
+              href="http://bit.ly/IrvineHacksVolunteer"
+              target="_blank"
+            >
+              Volunteer
+            </Button>
+          </Col>
+        </Row>
       </Jumbotron>
     </Container>
     <Container fluid className="bg-light">
