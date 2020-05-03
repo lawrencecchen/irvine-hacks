@@ -25,7 +25,7 @@ import CaliforniaMilanMedicalCenter from "../media/sponsors/CaliforniaMilanMedic
 import nrclc from "../media/sponsors/nrclc.jpg";
 
 const Sponsors = React.forwardRef((props, ref) => (
-  <Container fluid className="p-0 m-0" ref={ref}>
+  <Container fluid className="p-0 m-0" ref={ref} id="sponsors">
     <Header>Sponsors</Header>
     <Container className="mb-4 text-center">
       <div className="row text-center">

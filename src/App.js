@@ -1,28 +1,31 @@
-import React from 'react';
+import React from "react";
 // import { Route, Switch, Redirect } from 'react-router-dom'
-import { Container } from 'react-bootstrap';
-import Navigation from './pages/Navigation'
-import About from './pages/About';
-import Sponsors from './pages/Sponsors';
-import FAQ from './pages/FAQ';
-import Footer from './pages/Footer';
-import Schedule from './pages/Schedule';
-import Team from './pages/Team';
-import scrollToComponent from 'react-scroll-to-component';
-import './App.scss';
+import { Container } from "react-bootstrap";
+
+import Navigation from "./pages/Navigation";
+import About from "./pages/About";
+import Sponsors from "./pages/Sponsors";
+import FAQ from "./pages/FAQ";
+import Footer from "./pages/Footer";
+import Schedule from "./pages/Schedule";
+import Team from "./pages/Team";
+import End from "./pages/End";
+
+import scrollToComponent from "react-scroll-to-component";
+import "./App.scss";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentSection: this.About
-    }
+      currentSection: this.About,
+    };
     this.handleSectionChange = this.handleSectionChange.bind(this);
     this.defaultAnimationSettings = {
-      align: 'top',
-      ease: 'inOutCube',
+      align: "top",
+      ease: "inOutCube",
       duration: 790,
-      offset: -48
+      offset: -48,
     };
     this.sections = {
       About: React.createRef(),
@@ -31,7 +34,7 @@ class App extends React.Component {
       Sponsors: React.createRef(),
       Team: React.createRef(),
       Contact: React.createRef(),
-    }
+    };
   }
 
   handleSectionChange(section) {
@@ -41,9 +44,16 @@ class App extends React.Component {
   render() {
     return (
       <Container fluid className="m-0 p-0 overflow-x-hidden">
-        <Navigation handleSectionChange={this.handleSectionChange} sections={this.sections} />
+        <Navigation
+          handleSectionChange={this.handleSectionChange}
+          sections={this.sections}
+        />
         <Container className="p-0 m-0 parallax" fluid>
           <Container fluid className="m-0 px-0 bg-transparent">
+            <End
+              handleSectionChange={this.handleSectionChange}
+              sections={this.sections}
+            />
             <About ref={this.sections.About} />
             <FAQ ref={this.sections.FAQ} />
             <Schedule ref={this.sections.Schedule} />
