@@ -28,7 +28,7 @@ const End = (props) => {
           <h3 className="font-weight-bold">Congratulations to our winners:</h3>
           <ul className="list-unstyled h5">
             <li>
-              1.
+              1.{" "}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -38,7 +38,7 @@ const End = (props) => {
               </a>
             </li>
             <li>
-              2.
+              2.{" "}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -48,7 +48,7 @@ const End = (props) => {
               </a>
             </li>
             <li>
-              3.
+              3.{" "}
               <a
                 target="_blank"
                 rel="noopener noreferrer"
