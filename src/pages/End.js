@@ -8,10 +8,10 @@ const End = (props) => {
       <Jumbotron className="d-flex flex-column align-items-center justify-content-center">
         <Logo id="logo" width="250" height="250" />
 
-        <h1 className="font-weight-bold">
+        <h1 className="font-weight-bold text-center">
           Irvine Hacks went off with a blast!
         </h1>
-        <h4 className="w-50 mt-5">
+        <Container className="mt-5 px-3 mx-0 h4">
           Thanks to all students around Orange County for coming. Irvine Hacks
           would not have been a success without your enthusiasm to learn and
           your passion for coding. Huge thanks to our helpful mentors, judges,
@@ -22,9 +22,12 @@ const End = (props) => {
           >
             sponsors.
           </a>{" "}
-        </h4>
+        </Container>
 
-        <Container className="d-flex flex-column align-items-center justify-content-center mt-5">
+        <Container
+          className="d-flex flex-column align-items-center justify-content-center mt-5"
+          fluid
+        >
           <h3 className="font-weight-bold">Congratulations to our winners:</h3>
           <ul className="list-unstyled h5">
             <li>
