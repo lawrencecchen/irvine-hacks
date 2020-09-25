@@ -1,13 +1,18 @@
 import React from "react";
 
-const ImageLink = props => {
+const ImageLink = (props) => {
   return (
-    <a href={props.href} target="_blank" className="mx-auto">
+    <a
+      href={props.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="mx-auto"
+    >
       <img
         src={props.url}
         style={{
           maxWidth: "300px",
-          maxHeight: "200px"
+          maxHeight: "200px",
         }}
         alt=""
       />

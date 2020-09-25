@@ -7,7 +7,6 @@ import LisaShi from "../media/profile/Lisa_Shi.jpeg";
 import MichaelShi from "../media/profile/Michael_Shi.png";
 import LawrenceChen from "../media/profile/Lawrence_Chen.jpg";
 import ShivaniPrisricha from "../media/profile/ShivaniPasricha.jpg";
-import Unknown from "../media/profile/Unknown.jpg";
 import Profile from "../components/Profile";
 import Header from "../components/Header";
 import "../components/Cards.scss";

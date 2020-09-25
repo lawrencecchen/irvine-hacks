@@ -10,6 +10,7 @@ import Footer from "./pages/Footer";
 import Schedule from "./pages/Schedule";
 import Team from "./pages/Team";
 import End from "./pages/End";
+import EventGallery from "./pages/Gallery";
 
 import scrollToComponent from "react-scroll-to-component";
 import "./App.scss";
@@ -54,6 +55,7 @@ class App extends React.Component {
               handleSectionChange={this.handleSectionChange}
               sections={this.sections}
             />
+            <EventGallery />
             <About ref={this.sections.About} />
             <FAQ ref={this.sections.FAQ} />
             <Schedule ref={this.sections.Schedule} />

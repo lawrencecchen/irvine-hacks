@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav, Button, Container } from "react-bootstrap";
 import { ReactComponent as Logo } from "../media/logo.svg";
-import RegisterButton from "../components/RegisterButton";
+// import RegisterButton from "../components/RegisterButton";
 import "../components/Navigation.scss";
 
 class Navigation extends React.Component {
