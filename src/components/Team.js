@@ -17,6 +17,11 @@ const Team = React.forwardRef((props, ref) => (
     <Jumbotron className="bg-transparent m-0 p-0 rounded-0 text-center" fluid>
       <Container id="responsive-cards">
         <Profile
+          src={LawrenceChen}
+          name="Lawrence Chen"
+          email="lawrencechen2002@gmail.com"
+        ></Profile>
+        <Profile
           src={WilliamHu}
           name="William Hu"
           email="williamhu750@gmail.com"
@@ -25,11 +30,6 @@ const Team = React.forwardRef((props, ref) => (
           src={ShivaniPrisricha}
           name="Shivani Pasricha"
           email="pasricha.shivani@gmail.com"
-        ></Profile>
-        <Profile
-          src={LawrenceChen}
-          name="Lawrence Chen"
-          email="lawrencechen2002@gmail.com"
         ></Profile>
         <Profile
           src={LisaShi}

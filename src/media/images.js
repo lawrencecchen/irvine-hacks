@@ -19,7 +19,6 @@ import Photo17 from "./event/54B6C939-2471-47BD-958B-6AA9734C99D7.jpg";
 import Photo18 from "./event/736C6F58-5CD6-42C8-AA8E-2F78F8979AFD_1_105_c.jpg";
 import Photo19 from "./event/77AD4892-6664-4191-8E2F-FCBD654C0EC9.jpg";
 import Photo20 from "./event/7DF70100-7142-4E31-9CF3-EBB23CEA1FAC.jpg";
-import Photo21 from "./event/7EED8571-FD22-4EB1-B391-75C2DFD8CB97_1_105_c.jpg";
 import Photo22 from "./event/7F349477-AD36-4867-8D00-B13807A48020_1_201_a.jpg";
 import Photo23 from "./event/84D08AFE-342C-4139-9159-7DA5012B1422.jpg";
 import Photo24 from "./event/866F49DB-864B-4531-9358-1FB17C5E289B.jpg";
@@ -56,7 +55,6 @@ const photos = [
   { src: Photo18, width: 6, height: 3.38 },
   { src: Photo19, width: 6, height: 4 },
   { src: Photo20, width: 6, height: 4 },
-  { src: Photo21, width: 3.38, height: 6 },
   { src: Photo22, width: 6, height: 4 },
   { src: Photo23, width: 6, height: 4 },
   { src: Photo24, width: 6, height: 4 },
